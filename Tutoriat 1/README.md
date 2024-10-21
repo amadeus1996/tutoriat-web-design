@@ -1,18 +1,18 @@
 # Tutoriat 1
 
-### Table of contents
+## Table of contents
 - [Scopul tutoriatului](#scopul-tutoriatului)
 - [Introducere in HTML](#html---hypertext-markup-language)
 - [Introducere in CSS](#css---cascading-style-sheets)
 
-### Scopul tutoriatului
+## Scopul tutoriatului
 Acest fisier este o tratare sumara a conceptelor care vor fi discutate si implementate la tutoriat, unde vom avea in vedere urmatoarele lucruri:
 1. Introducerea materiei si prezentarea unor exemple concrete de proiecte.
 2. Intelegerea unor elemente si notiuni de baza din HTML si CSS.
 3. Lucrul cu fisiere .html si .css, legarea fisierelor.
 4. Niste exercitii de antrenament pentru reproducerea anumitor designuri, utile in special pentru realizarea proiectului.
 
-### HTML - HyperText Markup Language
+## HTML - HyperText Markup Language
 Descrie continutul unei pagini web. Toate documentele HTML au o anumita structura.
 
 Documentele HTML contin elemente (taguri) care descriu diferite tipuri de continut: paragrafe, imagini, videouri, etc. Un browser interpreteaza elementele si afiseaza documentele HTML intr-o forma grafica. Acestea trebuie sa fie corect imbricate.
@@ -21,7 +21,7 @@ Tagurile pot avea atribute globale (se pot asocia oricarui element - <b>id, clas
 
 Elementele semantice (<b>header, section</b>, etc.) sunt folosite pentru claritatea codului si pentru a structura mai bine o pagina, ca sa fie inteleasa de catre diverse aplicatii (ex: text-to-speech). In locul utilizarii in exces a divurilor, se pot folosi <b>section, article, header, footer</b>, etc.
 
-### CSS - Cascading Style Sheets
+## CSS - Cascading Style Sheets
 Utilizat pentru stilizare, asezare, vizibilitate, animatii.
 
 Se poate introduce in 3 moduri: inline, in file, in fisier separat (recomandat). Exista o precedenta: mai intai se aplica CSS extern, CSS in file si apoi CSS inline.
