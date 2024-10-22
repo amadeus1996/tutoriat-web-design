@@ -1,4 +1,4 @@
-# Tutoriat - Tehnici Web (HTML, CSS, JS, Node.js)
+# Tutoriat - Tehnici Web (HTML, CSS, JS)
 ### Anul 1, semestrul 1
 Aici vom posta materialele cu care lucram la tutoriate - ne vedem in fiecare <ins><b>marti intre 10:00-12:00 in sala 216!</b></ins>
 
