@@ -1,4 +1,4 @@
-# Tutoriat 1
+# Tutoriat 2
 
 ## Table of contents
 - [Scopul tutoriatului](#scopul-tutoriatului)
@@ -14,17 +14,15 @@ Acest fisier este o tratare sumara a conceptelor care vor fi discutate si implem
 4. Un exercitiu final de antrenament pentru consolidarea cunostintelor, ce include reproducerea unor designuri si concepte utile pentru proiect.
 
 ## Design responsiv in CSS
-
 Sunt foarte multe proprietati CSS pentru animatii, tranzitii, responsivitatea unui website, etc. Cateva exemple ar fi <b>translate</b>, <b>rotate</b>, <b>skew</b>, <b>matrix</b>, <b>scale</b>, <b>translateZ</b>, <b>perspective</b>, <b>transition-delay</b>, <b>animation-iteration-count</b> si altele.
 
-Este important de tinut minte faptul ca aceste proprietati sunt in numar foarte mare; ar fi elucubrant sa le listez pe toate si sa le explic pe fiecare in parte, cu toate detaliile, functionalitatile lor, exemple practice, etc. Nu acesta este scopul tutoriatului (nici eu nu le stiu pe toate, ci doar cateva pe care le-am mai folosit). In schimb, voi prezenta cateva proprietati mai practice, dar mai ales <b>cum</b> puteti sa invatati eficient si cum sa treceti prin explicatiile de pe net; performantele la web design provin din <b>adaptabilitate si abilitatea de a cauta</b>.
+Este important de tinut minte faptul ca aceste proprietati sunt in numar foarte mare; ar fi elucubrant sa le listez pe toate si sa le explic pe fiecare in parte, cu toate detaliile, functionalitatile lor, exemple practice, etc. Nu acesta este scopul tutoriatului (nici eu nu le stiu pe toate, ci doar cateva pe care le-am mai folosit). In schimb, la tutoriat vom trece prin cateva proprietati mai practice, dar mai ales <b>cum</b> puteti sa invatati eficient si cum sa treceti prin explicatiile de pe net; performantele la web design provin din <b>adaptabilitate si abilitatea de a cauta</b>.
 
 La examen vor fi cerinte legate de responsivitate in numar limitat, si ar trebui sa aveti voie cu documentatie. De asta nu recomand memorarea tuturor proprietatilor si functionalitatilor (mai ales daca nu mergeti pe o cariera bazata pe web design).
 
 La finalul tutoriatului, vom rezolva ultimul exercitiu (rezolvarea o gasiti si aici, pe GitHub) utilizand o animatie cu <b>@keyframes</b>, niste <b>tranzitii</b>, un <b>gradient</b> si un <b>media query</b>. Am inclus si un exemplu de dropdown menu (asta fiind una din cerintele proiectului). Nu este un exemplu impopotonat cu toate proprietatile posibile, dar este corespunzator cerintelor pentru proiect, e adecvat pentru niste cultura generala si este o introducere compacta in responsivitate.
 
 ## Introducere in JavaScript
-
 JavaScript este un limbaj care poate interactiona cu documentul HTML (prin intermediul DOM-ului = Document Object Model). Acesta poate fi inclus direct in document folosind tagul <b>script</b>, sau printr-un fisier extern (de recomandat).
 
 Tipurile de data seamana cu cele din alte limbaje: number, string, boolean, <b>null</b>, <b>undefined</b>, Array, Date, Set, obiecte, etc. Totusi, nu este necesara precizarea tipului de date: se realizeaza automat identificarea acestuia.
@@ -44,7 +42,6 @@ Functiile pot fi apelate cu un numar variabil de parametri si pot accesa un obie
 <b>Functiile anonime</b> sunt des intalnite, iar ele seamana cu <b>functiile lambda</b> din Python si C++. Acestea se mai numesc si <b>arrow functions</b>.
 
 ## Exercitii
-
 1. Folosind sintaxa pentru obiectul literal, sa se creeze un nou obiect <b>album</b>, avand 3 campuri (initializate) ce descriu un album. Apoi, sa se afiseze (utilizand o structura repetitiva) campurile si valorile lor.
 2. Folosind sintaxa pentru obiectul generic, sa se creeze un nou obiect <b>carte</b>, avand 4 campuri (initializate) adecvate. Apoi, sa se afiseze (utilizand o functie) campurile si valorile lor.
 3. Sa se selecteze, la intamplare, un paragraf dintr-un document HTML si sa se afiseze in consola textul original, apoi cu majuscule.
