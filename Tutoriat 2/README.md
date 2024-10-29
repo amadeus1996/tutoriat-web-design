@@ -10,8 +10,7 @@
 Acest fisier este o tratare sumara a conceptelor care vor fi discutate si implementate la tutoriat, unde vom avea in vedere urmatoarele lucruri:
 1. Intelegerea elementelor de baza pentru lucrul cu design responsiv in CSS.
 2. Introducere in limbajul JavaScript, prezentarea unor notiuni primare.
-3. Rezolvarea unor exercitii practice, necesare pentru proiect si examen, utilizand JavaScript.
-4. Un exercitiu final de antrenament pentru consolidarea cunostintelor, ce include reproducerea unor designuri si concepte utile pentru proiect.
+3. Un exercitiu final de antrenament pentru consolidarea cunostintelor, ce include reproducerea unor designuri si concepte utile pentru proiect.
 
 ## Design responsiv in CSS
 Sunt foarte multe proprietati CSS pentru animatii, tranzitii, responsivitatea unui website, etc. Cateva exemple ar fi <b>translate</b>, <b>rotate</b>, <b>skew</b>, <b>matrix</b>, <b>scale</b>, <b>translateZ</b>, <b>perspective</b>, <b>transition-delay</b>, <b>animation-iteration-count</b> si altele.
@@ -42,9 +41,4 @@ Functiile pot fi apelate cu un numar variabil de parametri si pot accesa un obie
 <b>Functiile anonime</b> sunt des intalnite, iar ele seamana cu <b>functiile lambda</b> din Python si C++. Acestea se mai numesc si <b>arrow functions</b>.
 
 ## Exercitii
-1. Folosind sintaxa pentru obiectul literal, sa se creeze un nou obiect <b>album</b>, avand 3 campuri (initializate) ce descriu un album. Apoi, sa se afiseze (utilizand o structura repetitiva) campurile si valorile lor.
-2. Folosind sintaxa pentru obiectul generic, sa se creeze un nou obiect <b>carte</b>, avand 4 campuri (initializate) adecvate. Apoi, sa se afiseze (utilizand o functie) campurile si valorile lor.
-3. Sa se selecteze, la intamplare, un paragraf dintr-un document HTML si sa se afiseze in consola textul original, apoi cu majuscule.
-4. Scrieti o functie care transmite un prompt, ce solicita un numar natural. In cazul in care inputul primit este corect, sa se afiseze cu un alert (folosind si o functie anonima) patratele perfecte intre 1 si numarul primit (inclusiv). Apelati functia.
-5. Creati un document HTML care sa contina un <b>div</b> cu id-ul <b>imagini</b>. Dintr-un folder cu cateva imagini, selectati la intamplare 2 imagini <b>diferite</b>. Selectati div-ul si puneti imaginile in el (cu atributele <b>src</b> si <b>alt</b>). Specificati niste valori adecvate pentru cateva proprietati CSS: <b>width</b> si <b>border (color, size, style, radius)</b>. Ar trebui ca cele 2 imagini sa apara pe pagina.
-6. Sa se creeze cu HTML si CSS un <b>nav</b> responsiv (transformari, animatii, media queries, gradient). 
+1. Sa se creeze cu HTML si CSS un <b>nav</b> responsiv (transformari, animatii, media queries, gradient). 
