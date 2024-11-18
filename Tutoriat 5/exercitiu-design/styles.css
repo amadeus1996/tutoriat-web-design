@@ -1,0 +1,175 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.album {
+    margin-top: 50px;
+    margin-left: 25%;
+    width: 45%;
+}
+
+.top-line {
+    height: 10px;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    margin-bottom: 10px;
+}
+
+.album-overview {
+    display: flex;
+}
+
+.album-cover {
+    width: 225px;
+    border: 2px solid black;
+    border-radius: 10px;
+    box-shadow: 1px 1px 5px;
+    transition: box-shadow 0.2s;
+}
+
+.album-cover:hover {
+    box-shadow: 1px 1px 10px;
+}
+
+.album-text-top {
+    margin-top: 55px;
+    margin-left: 30px;
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* justify-content: center; */
+}
+
+.year {
+    font-family: "Permanent Marker";
+    font-size: 32px;
+}
+
+.title-artist {
+    font-family: "Sora";
+    font-size: 20px;
+}
+
+.tracklist {
+    margin-top: 10px;
+    font-family: "Sora";
+    font-size: 12px;
+}
+
+.album-text {
+    margin-top: 14px;
+}
+
+.desc {
+    font-family: "Sora";
+    text-align: justify;
+    font-size: 14px;
+    margin-bottom: 18px;
+}
+
+.quotes {
+    display: flex;
+    justify-content: space-around;
+    font-family: "Finger Paint";
+    font-size: 14px;
+}
+
+.left-quote-1 {
+    border-left: 2px solid black;
+    border-top: 2px solid black;
+    padding-left: 5px;  
+}
+
+.left-quote-2 {
+    margin-left: 35px;
+}
+
+.right-quote-1 {
+    margin-left: 40px;
+    padding-right: 5px;
+}
+
+.right-quote-2 {
+    border-bottom: 2px solid black;
+    border-right: 2px solid black;
+    padding-bottom: 2px;
+}
+
+@media screen and (max-width: 1100px) {
+    .album-cover {
+        width: 100px;
+    }
+
+    .album-text-top {
+        margin-top: 10px;
+    }
+
+    .year {
+        font-size: 18px;
+    }
+
+    .title-artist {
+        font-size: 18px;
+    }
+
+    .quotes {
+        font-size: 12px;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .left-quote {
+        margin-bottom: 20px;
+    }
+    
+    .left-quote-1 {
+        border: none;
+        padding: none;
+    }
+    
+    .left-quote-2 {
+        margin-left: 0;
+    }
+    
+    .right-quote-1 {
+        margin: 0;
+        padding: 0;
+    }
+    
+    .right-quote-2 {
+        border: none;
+        padding: none;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .album-cover {
+        display: none;
+    }
+
+    .album-text-top {
+        margin: 0;
+        border-bottom: 2px solid black; 
+    }
+
+    .year {
+        font-size: 14px;
+    }
+
+    .title-artist {
+        font-size: 12px;
+    }
+    
+    .desc {
+        font-size: 10px;
+    }
+
+    .top-line {
+        display: none;
+    }
+
+    .quotes {
+        font-size: 9px;
+    }
+}
