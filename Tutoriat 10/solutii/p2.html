@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            .dreptunghi{
+                border: 3px solid black;
+                height: 50px;
+                width: 70px;
+                background-color: yellow;
+                margin-left: 10px;
+                display: inline-block;
+                vertical-align: top;
+            }
+        </style>
+        <script>
+            window.onload=function(){
+
+                for(let i=1;i<=10;i++)
+                {
+                    let p=document.createElement("div");
+                    p.className="dreptunghi";
+                    document.body.appendChild(p);
+
+                    var h=p.offsetHeight;
+                    p.addEventListener("click",function(event){
+
+                        event.stopPropagation();
+                        p.style.height=parseInt(p.offsetHeight)+10+"px";
+                    })
+                }
+                document.addEventListener("click",function(event){
+
+                    let divuri=document.getElementsByClassName("dreptunghi");
+                    for(let d of divuri)
+                       {
+                        d.style.height="50px";
+                       }
+                })
+            }
+        </script>
+    </head>
+    <body>
+        
+
+    </body>
+</html>
